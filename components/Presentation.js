@@ -1,15 +1,20 @@
 import Image from 'next/image';
+import '../styles/font.css';
+import CTA_Button from './CTA_Button';
 
 const Presentation = () => {
   return (
     <div className="h-96 my-20">
       <div className=" flex flex-row justify-center">
         <div className="flex flex-col px-12 py-10 justify-between">
-          <h1 className="text-7xl mb-3 font-bold">Yummi Nouilles</h1>
-          <p className="text-xl font-bold ">
-            Les nouilles les plus yummy de tout Paris
+          <h1 className="Header">Yummi Nouilles</h1>
+          <p className="BodyHighlight">
+            Les nouilles les plus <span className="text-yummy-red">yummy</span>{' '}
+            de tout Paris
           </p>
-          <p className="text-2xl font-bold">click & collect</p>
+          <div className="">
+            <CTA_Button />
+          </div>
         </div>
         <div className="px-12">
           <Image

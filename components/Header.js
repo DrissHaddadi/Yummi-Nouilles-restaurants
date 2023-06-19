@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import '../styles/font.css';
 
 const Header = () => {
   return (
@@ -14,9 +15,9 @@ const Header = () => {
         </div>
         <nav>
           <ul className="m-2 flex flex-row ">
-            <li className="m-2 ">Accueil</li>
-            <li className="m-2 ">Menu</li>
-            <li className="m-2 ">Contact</li>
+            <li className="m-2 Title1 ">Accueil</li>
+            <li className="m-2 Title1">Menu</li>
+            <li className="m-2 Title1">Contact</li>
           </ul>
         </nav>
       </div>

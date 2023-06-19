@@ -1,9 +1,13 @@
 import Image from 'next/image';
+import '../styles/font.css';
 
 const Adresses_Graphical = () => {
   return (
     <div className="flex flex-col justify-center items-center">
-      <div className="mb-9">Nos Adresses</div>
+      <div className="mb-9 relative">
+        <span className="Title1">Nos adresses</span>
+        <span className="absolute inset-x-0 bottom-0 h-1 bg-yummy-red"></span>
+      </div>
       <div className="w-full  flex flex-row justify-evenly">
         <div>
           <Image
@@ -12,9 +16,9 @@ const Adresses_Graphical = () => {
             height={216}
             alt="Facade Yummy Noodle"
           />
-          <div>Yummy Noodle</div>
-          <div>185 rue de Lancry</div>
-          <div>75010 Paris</div>
+          <div className="BodyHighlight">Yummy Noodle</div>
+          <div className="Body">185 rue de Lancry</div>
+          <div className="Body">75010 Paris</div>
         </div>
         <div>
           <Image
@@ -23,9 +27,9 @@ const Adresses_Graphical = () => {
             height={216}
             alt="Facade Yu Noodle My"
           />
-          <div>Yu Noodle My</div>
-          <div>350 rue Saint-Guillaume</div>
-          <div>75007 Paris</div>
+          <div className="BodyHighlight">Yu Noodle My</div>
+          <div className="Body">350 rue Saint-Guillaume</div>
+          <div className="Body">75007 Paris</div>
         </div>
         <div>
           <Image
@@ -34,9 +38,9 @@ const Adresses_Graphical = () => {
             height={216}
             alt="Facade Les Yummy Noodle"
           />
-          <div>Les Yummy Noodle</div>
-          <div>280 rue au Maire </div>
-          <div>75003 Paris</div>
+          <div className="BodyHighlight">Les Yummy Noodle</div>
+          <div className="Body">280 rue au Maire </div>
+          <div className="Body">75003 Paris</div>
         </div>
       </div>
     </div>
