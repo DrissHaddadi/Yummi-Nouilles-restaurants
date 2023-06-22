@@ -4,7 +4,7 @@ import '../styles/font.css';
 const Header = () => {
   return (
     <header>
-      <div className="pt-4 pl-7 h-32 ">
+      <div className="pt-4 pl-7 h-32 mb-2">
         <div className="flex flex-row content-center">
           <div className="m-4">
             <Image
