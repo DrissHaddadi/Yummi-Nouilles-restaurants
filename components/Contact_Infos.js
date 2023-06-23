@@ -1,6 +1,6 @@
 import '../styles/font.css';
 
-const Contact = () => {
+const Contact_Infos = () => {
   return (
     <div className="flex flex-col justify-center items-center mb-16">
       <div className="relative mb-4">
@@ -25,4 +25,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Contact_Infos;

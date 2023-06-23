@@ -1,5 +1,5 @@
 import CTA_Banner from '@/components/CTA_Banner';
-import Contact from '@/components/Contact';
+import Contact_Infos from '@/components/Contact_Infos';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
 import Menu_Restaurant from '@/components/Menu_Restaurant';
@@ -10,7 +10,7 @@ export default function Menu() {
       <Header />
       <CTA_Banner />
       <Menu_Restaurant />
-      <Contact />
+      <Contact_Infos />
       <Footer />
     </>
   );

@@ -1,5 +1,4 @@
 import Image from 'next/image';
-
 import '../styles/font.css';
 
 const Menu_Restaurant = () => {
@@ -7,7 +6,7 @@ const Menu_Restaurant = () => {
     <div className="flex flex-col justify-center items-center mb-16">
       <div>
         <div className="Header">menu</div>
-        <div className="body">
+        <div className="Body">
           Nos menus sont <span className="text-yummy-red">communs</span> à tous
           nos restaurants
         </div>
