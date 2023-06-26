@@ -7,24 +7,101 @@ import '../styles/font.css';
 const Header = () => {
   const router = useRouter();
   const [activeLink, setActiveLink] = useState('');
+  const [windowWidth, setWindowWidth] = useState(0);
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
 
   useEffect(() => {
     setActiveLink(router.pathname);
+    setWindowWidth(window.innerWidth);
+
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
   }, [router.pathname]);
+
+  const isMobile = windowWidth < 768; // Adjust the breakpoint as needed
 
   return (
     <header>
       <div className="container mx-auto pt-4 pl-7 h-32 mb-2">
-        <div className="flex flex-row content-center">
-          <div className="m-4">
-            <Image
-              src="/../public/images/logo.png"
-              width={72}
-              height={72}
-              alt="Picture of the logo"
-            />
+        <div className="flex flex-row justify-between">
+          <div className="flex flex-row content-center">
+            <div className="m-4">
+              <Image
+                src="/../public/images/logo.png"
+                width={72}
+                height={72}
+                alt="Picture of the logo"
+              />
+            </div>
+            {!isMobile && (
+              <nav className="flex items-center">
+                <ul className="m-2 flex flex-row content-center">
+                  <li>
+                    <Link href="/" className="m-2 Title1 inline-flex">
+                      <span className="relative">
+                        Accueil
+                        {activeLink === '/' && (
+                          <span className="absolute inset-x-0 bottom-0 h-1 bg-yummy-red"></span>
+                        )}
+                      </span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/Menu" className="m-2 Title1 inline-flex">
+                      <span className="relative">
+                        Menu
+                        {activeLink === '/Menu' && (
+                          <span className="absolute inset-x-0 bottom-0 h-1 bg-yummy-red"></span>
+                        )}
+                      </span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/Contact" className="m-2 Title1 inline-flex">
+                      <span className="relative">
+                        Contact
+                        {activeLink === '/Contact' && (
+                          <span className="absolute inset-x-0 bottom-0 h-1 bg-yummy-red"></span>
+                        )}
+                      </span>
+                    </Link>
+                  </li>
+                </ul>
+              </nav>
+            )}
           </div>
-          <nav className="flex items-center">
+          {isMobile && (
+            <div className="flex">
+              <button
+                className="flex items-center"
+                onClick={() => setShowMobileMenu(!showMobileMenu)}
+              >
+                <Image
+                  src={
+                    showMobileMenu
+                      ? 'icons/icon_cross.svg'
+                      : 'icons/icon_hamburger.svg'
+                  }
+                  width={30}
+                  height={30}
+                  alt={showMobileMenu ? 'close' : 'logo'}
+                  className="focus:border-none active:border-none"
+                />
+              </button>
+            </div>
+          )}
+          <nav
+            className={`flex items-center ${
+              showMobileMenu ? 'block' : 'hidden'
+            }`}
+          >
             <ul className="m-2 flex flex-row content-center">
               <li>
                 <Link href="/" className="m-2 Title1 inline-flex">
