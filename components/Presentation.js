@@ -4,8 +4,8 @@ import CTA_Button from './CTA_Button';
 
 const Presentation = () => {
   return (
-    <div className="h-96 my-20">
-      <div className=" flex flex-row justify-center">
+    <div className="container mx-auto mb-16">
+      <div className=" flex flex-col md:flex-row justify-center">
         <div className="flex flex-col px-12 py-10 justify-between">
           <h1 className="Header">Yummi Nouilles</h1>
           <p className="BodyHighlight">

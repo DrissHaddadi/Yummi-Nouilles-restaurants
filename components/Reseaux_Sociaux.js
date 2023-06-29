@@ -3,12 +3,12 @@ import '../styles/font.css';
 
 const Reseaux_Sociaux = () => {
   return (
-    <div className="flex flex-col justify-center items-center mb-16">
+    <div className="container mx-auto flex flex-col justify-center items-center mb-16">
       <div className="relative mb-9">
         <span className="Title1">Retrouvez-nous sur les réseaux sociaux</span>
         <span className="absolute inset-x-0 bottom-0 h-1 bg-yummy-red"></span>
       </div>
-      <div className="grid grid-cols-3 gap-20">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-20">
         {' '}
         <div>
           {' '}

@@ -8,7 +8,7 @@ const Adresses_Graphical = () => {
         <span className="Title1">Nos adresses</span>
         <span className="absolute inset-x-0 bottom-0 h-1 bg-yummy-red"></span>
       </div>
-      <div className=" flex flex-row ">
+      <div className=" flex flex-col md:flex-row ">
         <div className="mx-14">
           <Image
             src="/../public/images/Facade_Yummy_Nouille.png"
