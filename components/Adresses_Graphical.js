@@ -4,13 +4,14 @@ import '../styles/font.css';
 const Adresses_Graphical = () => {
   return (
     <div className="flex flex-col justify-center items-center mb-16">
-      <div className="mb-9 relative">
+      <div className="mb-8 relative">
         <span className="Title1">Nos adresses</span>
         <span className="absolute inset-x-0 bottom-0 h-1 bg-yummy-red"></span>
       </div>
       <div className=" flex flex-col md:flex-row ">
-        <div className="mx-14">
+        <div className="mx-14 mb-8">
           <Image
+            className="mb-4"
             src="/../public/images/Facade_Yummy_Nouille.png"
             width={304.78}
             height={216}
@@ -20,8 +21,9 @@ const Adresses_Graphical = () => {
           <div className="Body">185 rue de Lancry</div>
           <div className="Body">75010 Paris</div>
         </div>
-        <div className="mx-14">
+        <div className="mx-14 mb-8">
           <Image
+            className="mb-4"
             src="/../public/images/Facade_Yu_Noodle_My.png"
             width={304.78}
             height={216}
@@ -33,6 +35,7 @@ const Adresses_Graphical = () => {
         </div>
         <div className="mx-14">
           <Image
+            className="mb-4"
             src="/../public/images/Facade_Les_Yummy_Noodle.png"
             width={304.78}
             height={216}

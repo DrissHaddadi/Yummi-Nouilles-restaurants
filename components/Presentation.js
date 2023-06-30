@@ -4,11 +4,14 @@ import CTA_Button from './CTA_Button';
 
 const Presentation = () => {
   return (
-    <div className="container mx-auto mb-16">
+    <div className="container mx-auto mt-16 mb-16">
       <div className=" flex flex-col md:flex-row justify-center">
-        <div className="flex flex-col px-12 py-10 justify-between">
-          <h1 className="Header">Yummi Nouilles</h1>
-          <p className="BodyHighlight">
+        <div className="flex flex-col justify-between items-center md:items-start md:pr-8">
+          <h1 className="Header mb-4">Yummi Nouilles</h1>
+          <p
+            className="BodyHighlight mb-4 w-2/3 md:w-auto"
+            style={{ textAlign: 'center' }}
+          >
             Les nouilles les plus <span className="text-yummy-red">yummy</span>{' '}
             de tout Paris
           </p>
@@ -16,7 +19,7 @@ const Presentation = () => {
             <CTA_Button />
           </div>
         </div>
-        <div className="px-12">
+        <div className="md:pl-8 mt-8 md:mt-0 w-3/5 md:w-auto flex self-center">
           <Image
             src="/../public/images/logo.png"
             width={304}

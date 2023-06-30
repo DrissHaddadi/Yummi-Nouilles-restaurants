@@ -29,7 +29,7 @@ const Header = () => {
 
   return (
     <header>
-      <div className="container mx-auto pt-4 pl-7 h-32 mb-2">
+      <div className="container mx-auto mb-16">
         <div className="flex flex-row justify-between ">
           <div className="flex flex-row content-center">
             <div className="m-4">
@@ -95,45 +95,47 @@ const Header = () => {
                   className="focus:border-none active:border-none"
                 />
               </button>
-              {showMobileMenu && (
-                <nav className=" w-screen flex items-center justify-center bg-white py-4 shadow-lg">
-                  <ul className="  flex flex-col content-center">
-                    <li>
-                      <Link href="/" className="m-2 Title1 inline-flex">
-                        <span className="relative">
-                          Accueil
-                          {activeLink === '/' && (
-                            <span className="absolute inset-x-0 bottom-0 h-1 bg-yummy-red"></span>
-                          )}
-                        </span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/Menu" className="m-2 Title1 inline-flex">
-                        <span className="relative">
-                          Menu
-                          {activeLink === '/Menu' && (
-                            <span className="absolute inset-x-0 bottom-0 h-1 bg-yummy-red"></span>
-                          )}
-                        </span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="/Contact" className="m-2 Title1 inline-flex">
-                        <span className="relative">
-                          Contact
-                          {activeLink === '/Contact' && (
-                            <span className="absolute inset-x-0 bottom-0 h-1 bg-yummy-red"></span>
-                          )}
-                        </span>
-                      </Link>
-                    </li>
-                  </ul>
-                </nav>
-              )}
             </div>
           )}
         </div>
+      </div>
+      <div>
+        {showMobileMenu && (
+          <nav className=" w-screen flex items-center justify-center bg-white py-4 shadow-lg">
+            <ul className="  flex flex-col content-center">
+              <li>
+                <Link href="/" className="m-2 Title1 inline-flex">
+                  <span className="relative">
+                    Accueil
+                    {activeLink === '/' && (
+                      <span className="absolute inset-x-0 bottom-0 h-1 bg-yummy-red"></span>
+                    )}
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/Menu" className="m-2 Title1 inline-flex">
+                  <span className="relative">
+                    Menu
+                    {activeLink === '/Menu' && (
+                      <span className="absolute inset-x-0 bottom-0 h-1 bg-yummy-red"></span>
+                    )}
+                  </span>
+                </Link>
+              </li>
+              <li>
+                <Link href="/Contact" className="m-2 Title1 inline-flex">
+                  <span className="relative">
+                    Contact
+                    {activeLink === '/Contact' && (
+                      <span className="absolute inset-x-0 bottom-0 h-1 bg-yummy-red"></span>
+                    )}
+                  </span>
+                </Link>
+              </li>
+            </ul>
+          </nav>
+        )}
       </div>
     </header>
   );
