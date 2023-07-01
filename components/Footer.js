@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Footer = () => {
   return (
-    <div className=" bg-black h-52 flex flex-row justify-center md:justify-end items-center">
+    <div className=" bg-yummy-black h-52 flex flex-row justify-center md:justify-end items-center">
       <span className="mx-7">
         <Image
           src="/icons/icon_instagram.svg"
