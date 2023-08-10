@@ -21,7 +21,7 @@ Bienvenue sur mon application du Yummi Nouilles restaurants ! Une application we
 - Ouvrez une invite de commande à la racine du projet.
 - Exécutez npm install pour installer les dépendances.
 - Exécutez npm run dev pour lancer l'application en mode de développement.
-- Ouvrez votre navigateur et accédez à http://localhost:3000 pour voir l'application.
+- Ouvrez votre navigateur et accédez sur le port 3000 pour tester l'application.
 
 ## Captures d'écran
 
@@ -37,4 +37,4 @@ Bienvenue sur mon application du Yummi Nouilles restaurants ! Une application we
 
 ## Crédits
 
-- Openclassroom pour la maquette Figma
+- Openclassroom pour la maquette Figma ( https://openclassrooms.com/fr/courses/7342806-creez-une-maquette-web-avec-figma )
