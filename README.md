@@ -25,7 +25,15 @@ Bienvenue sur mon application du Yummi Nouilles restaurants ! Une application we
 
 ## Captures d'écran
 
-(A completer) 
+![Capture d’écran 2023-08-10 205224](https://github.com/DrissHaddadi/Yummi-Nouilles-restaurants/assets/114992810/1a7b1fc3-2b5f-44c4-b184-444890a1f592)
+
+![Capture d’écran 2023-08-10 205412](https://github.com/DrissHaddadi/Yummi-Nouilles-restaurants/assets/114992810/23a29b21-b0a4-4ed3-91e2-c0282c60d2c9)
+
+![Capture d’écran 2023-08-10 205310](https://github.com/DrissHaddadi/Yummi-Nouilles-restaurants/assets/114992810/e6e8029e-5158-45cf-85d1-1f05d3975ad8)
+
+![Capture d’écran 2023-08-10 205504](https://github.com/DrissHaddadi/Yummi-Nouilles-restaurants/assets/114992810/8a0981ea-6f42-4de7-ad24-7b2e4f270ac2)
+
+![Capture d’écran 2023-08-10 205338](https://github.com/DrissHaddadi/Yummi-Nouilles-restaurants/assets/114992810/e2aba975-031a-4548-9e3a-e178a32262b5)
 
 ## Crédits
 
