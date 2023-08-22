@@ -24,7 +24,7 @@ const Adresses_Graphical = () => {
         <div className="mx-14 mb-8">
           <Image
             className="mb-4"
-            src={'/images/facade_You_Noodle_My.svg'}
+            src={'/images/Facade_You_Noodle_My.svg'}
             width={304.78}
             height={216}
             alt="Facade Yu Noodle My"
