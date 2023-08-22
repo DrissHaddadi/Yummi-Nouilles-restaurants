@@ -12,7 +12,7 @@ const Adresses_Graphical = () => {
         <div className="mx-14 mb-8">
           <Image
             className="mb-4"
-            src="/../public/images/Facade_Yummy_Nouille.png"
+            src={'/../public/images/Facade_Yummy_Nouille.png'}
             width={304.78}
             height={216}
             alt="Facade Yummy Noodle"
@@ -24,7 +24,7 @@ const Adresses_Graphical = () => {
         <div className="mx-14 mb-8">
           <Image
             className="mb-4"
-            src="/../public/images/Facade_Yu_Noodle_My.png"
+            src={'/../public/images/Facade_Yu_Noodle_My.png'}
             width={304.78}
             height={216}
             alt="Facade Yu Noodle My"
@@ -36,7 +36,7 @@ const Adresses_Graphical = () => {
         <div className="mx-14">
           <Image
             className="mb-4"
-            src="/../public/images/Facade_Les_Yummy_Noodle.png"
+            src={'/../public/images/Facade_Les_Yummy_Noodle.png'}
             width={304.78}
             height={216}
             alt="Facade Les Yummy Noodle"

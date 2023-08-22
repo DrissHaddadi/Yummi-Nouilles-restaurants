@@ -13,7 +13,7 @@ const Reseaux_Sociaux = () => {
         <div>
           {' '}
           <Image
-            src="/../public/images/reseau_social_yummy_1.png"
+            src={'/../public/images/reseau_social_yummy_1.png'}
             width={248}
             height={248}
             alt="Image Réseaux Sociaux 1"
@@ -22,7 +22,7 @@ const Reseaux_Sociaux = () => {
         <div>
           {' '}
           <Image
-            src="/../public/images/reseau_social_yummy_2.png"
+            src={'/../public/images/reseau_social_yummy_2.png'}
             width={248}
             height={248}
             alt="Image Réseaux Sociaux 2"
@@ -31,7 +31,7 @@ const Reseaux_Sociaux = () => {
         <div>
           {' '}
           <Image
-            src="/../public/images/reseau_social_yummy_3.png"
+            src={'/../public/images/reseau_social_yummy_3.png'}
             width={248}
             height={248}
             alt="Image Réseaux Sociaux 3"
@@ -40,7 +40,7 @@ const Reseaux_Sociaux = () => {
         <div>
           {' '}
           <Image
-            src="/../public/images/reseau_social_yummy_4.png"
+            src={'/../public/images/reseau_social_yummy_4.png'}
             width={248}
             height={248}
             alt="Image Réseaux Sociaux 4"
@@ -49,7 +49,7 @@ const Reseaux_Sociaux = () => {
         <div>
           {' '}
           <Image
-            src="/../public/images/reseau_social_yummy_5.png"
+            src={'/../public/images/reseau_social_yummy_5.png'}
             width={248}
             height={248}
             alt="Image Réseaux Sociaux 5"
@@ -58,7 +58,7 @@ const Reseaux_Sociaux = () => {
         <div>
           {' '}
           <Image
-            src="/../public/images/reseau_social_yummy_6.png"
+            src={'/../public/images/reseau_social_yummy_6.png'}
             width={248}
             height={248}
             alt="Image Réseaux Sociaux 6"

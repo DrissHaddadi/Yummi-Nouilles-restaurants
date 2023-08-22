@@ -21,10 +21,10 @@ const Presentation = () => {
         </div>
         <div className="md:pl-8 mt-8 md:mt-0 w-3/5 md:w-auto flex self-center">
           <Image
-            src="/../public/images/logo.png"
+            src={'/../public/images/logo.png'}
             width={304}
             height={304}
-            alt="Picture of the logo"
+            alt="Logo picture"
           />
         </div>
       </div>

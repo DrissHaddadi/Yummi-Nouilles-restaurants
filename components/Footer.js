@@ -5,7 +5,7 @@ const Footer = () => {
     <div className=" bg-yummy-black h-52 flex flex-row justify-center md:justify-end items-center">
       <span className="mx-7">
         <Image
-          src="/icons/icon_instagram.svg"
+          src={'/icons/icon_instagram.svg'}
           width={36}
           height={36}
           alt="icon_instagram"
@@ -13,7 +13,7 @@ const Footer = () => {
       </span>
       <span className="mx-7">
         <Image
-          src="/icons/icon_facebook.svg"
+          src={'/icons/icon_facebook.svg'}
           width={36}
           height={36}
           alt="icon_facebook"
@@ -21,7 +21,7 @@ const Footer = () => {
       </span>
       <span className="mx-7">
         <Image
-          src="/icons/icon_map.svg"
+          src={'/icons/icon_map.svg'}
           width={36}
           height={36}
           alt="icon_map"
