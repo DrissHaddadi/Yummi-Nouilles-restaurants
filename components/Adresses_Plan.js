@@ -31,7 +31,7 @@ const Adresses_Plan = () => {
       <div>
         <Image
           className="hidden md:block"
-          src={'/../public/images/capture_map.png'}
+          src={'/images/Map.svg'}
           width={828}
           height={714}
           alt="capture_map"

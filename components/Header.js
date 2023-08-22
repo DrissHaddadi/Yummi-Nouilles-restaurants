@@ -34,7 +34,7 @@ const Header = () => {
           <div className="flex flex-row content-center">
             <div className="m-4">
               <Image
-                src={'/../public/images/logo.png'}
+                src={'/images/Logo_S.svg'}
                 width={72}
                 height={72}
                 alt="Picture of the logo"

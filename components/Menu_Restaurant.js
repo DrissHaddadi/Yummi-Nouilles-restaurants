@@ -12,14 +12,14 @@ const Menu_Restaurant = () => {
         </div>
         <Image
           className="hidden md:block"
-          src={'/../public/images/menu.png'}
+          src={'images/Menu.svg'}
           width={1129}
           height={1598}
           alt="menu"
         />
         <Image
           className=" md:hidden"
-          src={'/../public/images/menu_mobile.png'}
+          src={'images/Menu_Mobile.svg'}
           width={309}
           height={535}
           alt="menu_mobile"
