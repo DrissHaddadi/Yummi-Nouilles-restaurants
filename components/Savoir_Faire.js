@@ -1,4 +1,4 @@
-import '../styles/font.css';
+import "../styles/font.css";
 
 const Savoir_Faire = () => {
   return (
@@ -8,7 +8,7 @@ const Savoir_Faire = () => {
         <span className="absolute inset-x-0 bottom-0 h-1 bg-yummy-red"></span>
       </div>
       <div className="w-4/6 md:w-auto ">
-        <p className="Body text-center" style={{ textAlign: 'center' }}>
+        <p className="md:mx-8 Body text-center" style={{ textAlign: "center" }}>
           Depuis près de 10 ans maintenant, nous partageons avec vous les
           meilleures recettes. Nos plats ont tous été conçus, et affinés au fil
           des années et des goûts. Nous vous apportons le meilleur de l’Asie de

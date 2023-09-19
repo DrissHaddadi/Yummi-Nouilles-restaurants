@@ -1,9 +1,9 @@
-import Image from 'next/image';
-import '../styles/font.css';
+import Image from "next/image";
+import "../styles/font.css";
 
 const Adresses_Plan = () => {
   return (
-    <div className="container mx-auto  flex flex-row justify-between mb-16">
+    <div className="container mx-auto md:mx-8 flex flex-row justify-between mb-16">
       <div className="flex flex-col items-center md:items-start justify-between w-full md:w-auto">
         <div className="Header mb-4 md:mb-0">Nos adresses</div>
         <div className="flex flex-col items-center md:items-start justify-between mb-4 md:mb-0">
@@ -31,7 +31,7 @@ const Adresses_Plan = () => {
       <div>
         <Image
           className="hidden md:block"
-          src={'/images/Map.svg'}
+          src={"/images/Map.svg"}
           width={828}
           height={714}
           alt="capture_map"
